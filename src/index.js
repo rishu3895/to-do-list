@@ -1,0 +1,10 @@
+import {navBar} from './modules/navbar';
+import {generateQuote, randomQuoteGenerator} from './modules/randomQuoteGenerator';
+const navDiv=navBar();
+const content=document.querySelector('.content');
+content.appendChild(navDiv);
+const quoteAuthorDiv=randomQuoteGenerator();
+console.log(quoteAuthorDiv);
+content.appendChild(quoteAuthorDiv);
+// content.appendChild(quote);
+// console.log(typeof(quote));
