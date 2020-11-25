@@ -24,8 +24,13 @@ const myElement = () => {
         myDiv.innerHTML=divHtml;
         return {myDiv};
     }
+    const myIcon = (iconClass)=>{
+        const myIcon=document.createElement('i');
+        myIcon.classList=iconClass;
+        return {myIcon};
+    }
     
 
-    return {myHeading, myInput, myButton, myDiv};
+    return {myHeading, myInput, myButton, myDiv, myIcon};
 };
 export {myElement};

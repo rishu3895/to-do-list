@@ -58,22 +58,83 @@ body{
 
 /* handling nav bar */
 .nav-bar-class{
-    height:50px;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
     font-size:2em;
     font-family: 'Poppins' , 'sans-serif' ;
-    text-transform: capitalize;
+	text-transform: capitalize;
+	width:100%;
 }
-
+.nav-heading-class{
+	margin-top:20px;
+	font-size:1.2em;
+}
 /* handling quotes */
+.quote-author-class-class{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
 .quote-author-class{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items:flex-end;
-	margin:20px;
+	width:400px;
+	box-sizing:border-box;
+	margin:20px 20px;
+	padding:0 20px;
 	font-style: italic;
+	font-size:15px;
+}
+
+/* handling lower body */
+.lower-body{
+	background-color:red;
+	height:550px;
+	display: flex;
+	flex-direction:row;
+}
+/* lower left part */
+.lower-left-body{
+	background-color:green;
+	height:100%;
+	width:25vw;
+	padding:20px;
+	display:flex;
+	flex-direction: column;
+	/* align-items: center; */
+}
+.heading-lower-left{
+	font-size:25px;
+}
+.input-project-name-class{
+	height:30px;
+	width:90%;
+	border-radius:50px;
+	font-size:15px;
+	padding:10px;
+	border:0px;	
+	outline: none;
+	color:black;
+	margin-top:20px;
+}
+.heading-lower-left-icon{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 20px;
+}
+/* lower right part */
+.lower-right-body{
+	height:100%;
+	background-color:seagreen;
+	width:75vw;
+}
+.fa-plus:hover{
+	font-size:1.5em;
 }
